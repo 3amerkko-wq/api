@@ -19,5 +19,5 @@ app.get('/', (req,res)=> {
   res.send('Meram Backend Running ✅');
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, ()=>console.log(`🚀 Server Started on port ${PORT}`));
+const PORT = process.env.PORT
+app.listen(PORT, () => console.log(🚀 Server Started on port ${PORT}));
